@@ -1,0 +1,76 @@
+@font-face {
+    font-family: raleway;
+    src: url(../fonts/Raleway.ttf);
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: raleway-bold;
+    src: url(../fonts/Raleway.ttf);
+    font-weight: 800;
+  }
+
+  @font-face {
+    font-family: raleway-light;
+    src: url(../fonts/Raleway.ttf);
+    font-weight: 200;
+  }
+
+body {
+    font-family: raleway;
+}
+
+nav {
+    font-family: raleway;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    min-width: 400px;
+    min-height: 70px;
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-size: 32px;
+    margin-top:60px;
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    position: relative;
+    color: white;
+    box-shadow: 2px 3px 2px black;
+    border-radius: 5px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse;
+}
+button:hover {
+    top:1px;
+    left:1px;
+    box-shadow: 1px 2px 2px black;
+    cursor: pointer;
+}
+
+button:active{
+    top:2px;
+    left:3px;
+    box-shadow: 0 0 1px black;
+}
+
+
+
+
+/* /////////////
+//////////////// ANIMATIONS
+///////////// */

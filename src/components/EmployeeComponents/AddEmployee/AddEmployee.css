@@ -1,0 +1,51 @@
+#add-employee {
+    display: flex;
+    flex-direction: column;
+}
+
+#employee-details {
+    min-height: 86vh
+}
+
+#add-employee form {
+    display:  flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 500px;
+    justify-self:  center;
+    padding: 30px;
+}
+
+.add-emp-field {
+    display:  flex;
+    flex-direction: column;
+    max-width: 475px;
+    /* margin: 10px; */
+    margin-bottom: 20px;
+}
+
+.add-emp-field input {
+    height:25px;
+    font-size: 20px;
+}
+
+.add-emp-field label {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#add-emp-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#add-emp-buttons button {
+    width: 110px;
+    height: 40px;
+}
+#add-emp-buttons button:first-child {
+    background-color:dodgerblue;
+}
+#add-emp-buttons button:last-child {
+    background-color:red;
+}

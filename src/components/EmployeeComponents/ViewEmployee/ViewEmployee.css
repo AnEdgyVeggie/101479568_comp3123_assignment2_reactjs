@@ -1,0 +1,19 @@
+#view-employee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#employee-display-section{
+    min-height: 86vh;
+}
+
+#view-employee button {
+    margin-top: 20px;
+    background-color: rgb(212, 2, 2)
+}
+
+#view-employee button:hover {
+    background-color:rgb(116, 4, 4)
+}

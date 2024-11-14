@@ -1,0 +1,126 @@
+#list-employees{
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    align-items: center;
+    justify-content: space-between;
+    width:100vw;
+    min-height: 100vh;
+}
+#list-section {
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    /* max-height: 1000px; */
+    height: 620px;
+    overflow-y: scroll;
+
+}
+
+#add-emp-button  {
+    position: relative;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 10px;
+    color: white;
+    background-color:dodgerblue;
+    box-shadow: 2px 3px 2px black;
+    border-radius: 5px;
+    border: 2px solid black
+}
+
+#list-features {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px
+}
+
+#employee-search-bar {
+    display: flex;
+    align-items:center ;
+}
+
+#employee-search-bar button {
+    position:static;
+    background-color: rgb(16, 151, 61);
+    width: 100px;
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 18px;
+}
+#employee-search-bar button:hover {
+    background-color: rgb(13, 109, 43);
+    font-size: 18px;
+}
+#employee-search-bar button:active {
+
+    background-color: rgb(8, 70, 28);
+    font-size: 18px;
+}
+
+#employee-search-bar input {
+    border: 1px solid black;
+    height: 36px;
+    border-radius: 0px;
+    font-size: 18px;
+}
+#employee-search-bar select, #employee-search-bar option{
+    height: 40px;
+    border-right: none;
+    border-left: none;
+    border-radius: 0px;
+    font-size: 18px;
+}
+
+#employees-list-table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr{
+    border: 2px solid black;
+}
+th, td {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    height: 50px;
+    min-width: 250px;
+}
+
+td{
+    padding-left: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+.button-row{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-evenly;
+}
+
+.button-row button {
+    width: 85px;
+}
+.button-row button:nth-child(odd) {
+    background-color: dodgerblue;
+}
+.button-row button:nth-child(even), #return-to-list {
+    background-color:rgb(212, 2, 2)
+}
+
+.button-row button:nth-child(odd):hover, #add-emp-button:hover {
+    background-color: rgb(24, 98, 172);
+}
+.button-row button:nth-child(even):hover, #return-to-list:hover {
+    background-color:rgb(116, 4, 4)
+}
+
+#return-to-list {
+    margin-top: 20px
+}

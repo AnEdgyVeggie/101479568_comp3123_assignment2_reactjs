@@ -1,0 +1,9 @@
+#footer {
+    background-color: rgb(29, 31, 31);
+    width: 100%;
+    color: lightgray;
+    text-align: center;
+    align-self: flex-end;
+    justify-self: flex-end;
+
+}

@@ -1,0 +1,14 @@
+#header-banner {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(29, 31, 31);
+    color: lightgrey;
+    font-size: 42px;
+    font-family: raleway-light;
+    width: 100vw
+}
+
+#header h2 {
+    margin-left: 20px;
+}
